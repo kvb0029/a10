@@ -3,7 +3,7 @@ from unittest.mock import patch
 from io import StringIO
 from main import *
 
-from event_management import admin_login, create_event, register_user, register_for_event, provide_feedback
+from main import admin_login, create_event, register_user, register_for_event, provide_feedback
 # Mocked data for testing
 users = {"admin": "admin123"}
 events = {}
